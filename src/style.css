@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: hsl(235, 21%, 11%);  
+}
+
+header img{
+  width: 100vw;
+}
+
+.container{
+  margin: -15rem;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  width: 50rem;
+  
+}
+
+.todo-lista-pequena, .formulario_input input{
+  background-color: hsl(235, 24%, 19%);
+  color: hsl(234, 11%, 52%);
+  width: 50rem;
+  height: 4.3rem;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.todo-lista-pequena{
+  align-self: auto;
+  margin-top: 2.5rem;
+
+}
